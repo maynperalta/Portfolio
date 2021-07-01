@@ -8,15 +8,8 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
               <div className="left">
                   <a href="#intro" className="logo">Logo</a>
-                  <div className="container">
-                      <div className="icon"></div>
-                      <span>8675309</span>
-                  </div>
-                  <div className="container">
-                      <div className="icon"></div>
-                      <span>email</span>
-                      
-                  </div>
+                  
+                  
               </div>
               <div className="right">
                   <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>

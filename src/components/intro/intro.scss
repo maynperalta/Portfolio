@@ -1,3 +1,73 @@
 .intro {
-    background-color: palegoldenrod;
+    background-color: whitesmoke;
+    display: flex;
+
+    .left{
+        flex: 0.4;
+        overflow: hidden;
+    }
+
+    .right{
+        flex: 0.6;
+        position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1 {
+                font-size: 60px;
+                margin: 10px 0;
+
+            }
+            h2 {
+                font-size: 35px;
+            }
+
+            h3 {
+                font-size: 30px;
+            }
+
+            p {
+                margin-top: 20px;
+                font-size: 15px;
+                padding-right: 30px;
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 30px;
+            left: 40%;
+
+            img{
+                width: 40px;
+                animation:  arrowBlink 2s infinite;
+            }
+            @keyframes arrowBlink {
+                to{
+                    opacity: 0;
+                }
+            }
+        }
+    }
 }
+
+.imgContainer{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.headshot {
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px darkslategrey;
+    justify-content: center;
+    align-items: center;
+}
+
