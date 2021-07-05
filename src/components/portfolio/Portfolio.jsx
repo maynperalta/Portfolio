@@ -67,7 +67,11 @@ export default function Portfolio() {
                         <h3>{d.title}</h3>
                     </div>
                 ))}
+                
             </div>
+            <a href="#contact">
+                    <img src="../../../../assets/down-arrow.png" alt="next" />
+                </a>
         </div>
     )
 }

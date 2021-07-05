@@ -15,7 +15,7 @@ export default function Works() {
         {
             id: "2",
             icon: "./assets/placeholder.jpeg",
-            title: "Mobile Application",
+            title: "Mobile Apps",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est culpa molestiae. Accusamus eligendi commodi, consequatur laborum, deleniti corrupti aliquid debitis sapiente dolores omnis error autem reiciendis officia soluta perspiciatis!",
             img: "https://via.placeholder.com/150/000000/808080?Text=Mobile_Apps"
         },
