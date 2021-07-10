@@ -1,95 +1,154 @@
 @import "../../global.scss";
 
+
 .contact {
     background-color: whitesmoke;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-    @include mobile {
-        flex-direction: column;
-    }
-
-    .left{
-        flex: 1;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img{
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-
-    .right {
-        flex: 1;
+    .top {
+        flex: 0.6;
+        width: 70%;
+        height: 70%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
 
-        h2{
-            font-size: 30px;
+        h1 {
+            font-size: 50px;
         }
 
-        form{
-            width: 70%;
-            height: 70%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
+form {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
 
-            @include mobile {
-                padding-bottom: 30px;
-            }
-
-            input {
-                width: 300px;
-                height: 30px;
-                font-size: 14px;
-
-                @include mobile {
-                    width: 200px;
-                    height: 20px;
-                }
-            }
-
-            textarea{
-                width: 300px;
-                height: 200px;
-                font-size: 14px;
-
-                @include mobile {
-                    width: 200px;
-                    height: 90px;
-                }
-
-            }
-
-            button{
-                width: 150px;
-                height: 30px;
-                color: whitesmoke;
-                background-color: blue;
-                border: none;
-                border-radius: 10px;
-                font-weight: 700;
-                cursor: pointer;
+        button{
+            width: 150px;
+            height: 30px;
+            margin: 0 auto;
+            color: whitesmoke;
+            background-color: blue;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            cursor: pointer;
 
                 &:focus{
                     outline: none;
-                }
-            }
 
-            span{
-                color: black;
-                background-color: lightskyblue;
-                padding: 5px;
-                border-radius: 5px;
-            }
         }
     }
+    }
+    }
+
+.bottom {
+     flex: .4
+
+
+
+
+
 }
+
+    
+}
+
+// .contact {
+//     background-color: whitesmoke;
+//     display: flex;
+
+//     @include mobile {
+//         flex-direction: column;
+//     }
+
+//     .left{
+//         flex: 1;
+//         overflow: hidden;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+
+//         img{
+//             height: 100%;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//         }
+//     }
+
+//     .right {
+//         flex: 1;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: space-around;
+
+//         h2{
+//             font-size: 30px;
+//         }
+
+//         form{
+//             width: 70%;
+//             height: 70%;
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//             justify-content: space-around;
+
+//             @include mobile {
+//                 padding-bottom: 30px;
+//             }
+
+//             input {
+//                 width: 300px;
+//                 height: 30px;
+//                 font-size: 14px;
+
+//                 @include mobile {
+//                     width: 200px;
+//                     height: 20px;
+//                 }
+//             }
+
+//             textarea{
+//                 width: 300px;
+//                 height: 200px;
+//                 font-size: 14px;
+
+//                 @include mobile {
+//                     width: 200px;
+//                     height: 90px;
+//                 }
+
+//             }
+
+//             button{
+//                 width: 150px;
+//                 height: 30px;
+//                 color: whitesmoke;
+//                 background-color: blue;
+//                 border: none;
+//                 border-radius: 10px;
+//                 font-weight: 700;
+//                 cursor: pointer;
+
+//                 &:focus{
+//                     outline: none;
+//                 }
+//             }
+
+//             span{
+//                 color: black;
+//                 background-color: lightskyblue;
+//                 padding: 5px;
+//                 border-radius: 5px;
+//             }
+//         }
+//     }
+// }

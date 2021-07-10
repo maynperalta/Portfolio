@@ -13,7 +13,22 @@ export default function Contact() {
 
     return (
         <div className="contact" id="contact">
-            <div className="left">
+            <div className="top">
+            <h1>Contact Me!</h1>
+                <form>
+                    <label>Name</label>
+                        <input type="text" name="name" />
+
+                    <label>Email</label>
+                        <input type="email" name="email" />
+
+                    <label>Message</label>
+                        <textarea name="message" rows="4" />
+
+                    <button type="submit">Send!</button>
+                </form>
+            </div>
+            {/* <div className="left">
                 <img src="assets/email.png" alt="" />
             </div>
             <div className="right">
@@ -24,7 +39,11 @@ export default function Contact() {
                     <button type="submit">Send!</button>
                     {message && <span>Thank you for your message!</span>}
                 </form>
-            </div>
+            </div> */}
+        <div className="bottom">
+        <div className="social">d</div>
         </div>
+        </div>
+        
     )
 }
