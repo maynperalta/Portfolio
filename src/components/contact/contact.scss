@@ -1,5 +1,15 @@
 @import "../../global.scss";
 
+div[role='alert'] {
+    color: red;
+    margin-top: 1em;
+}
+
+.charRemain {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+}
 
 .contact {
     background-color: whitesmoke;
