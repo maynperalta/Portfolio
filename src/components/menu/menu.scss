@@ -3,9 +3,11 @@
 .menu{
     width: 300px;
     height: 35vh;
-    background-color: rgb(0, 0, 75);
+    background-color: $mainColor;
+    color: whitesmoke;
+    box-shadow: 5px 1px 5px 2px $mainColor;
     position: fixed;
-    top: -274px;
+    top: -500px;
     right: 0;
     z-index: 4;
     display: flex;
